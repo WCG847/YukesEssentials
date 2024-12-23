@@ -22,8 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Memory\" />
+    <Folder Include="Linker\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Linker\CLink.py" />
+    <Compile Include="Linker\__init__.py" />
     <Compile Include="Memory\Manager.py" />
     <Compile Include="Memory\__init__.py" />
   </ItemGroup>
